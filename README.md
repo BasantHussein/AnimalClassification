@@ -14,3 +14,9 @@ Animal classification on animals images, applying image processing first
 
 This project requires **Python 3.x**
 - Tensorflow
+
+### Run
+
+- run AnimalClassify.py file
+
+
