@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Animal classification on animals images, applying image processing first
+Animal images classification, and applied image processing first
 
 ### Methods
 
