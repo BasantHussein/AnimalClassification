@@ -184,8 +184,9 @@ knn = KNeighborsClassifier(n_neighbors=1)
 knn.fit(X_train, y_train)
 y_pred = knn.predict(X_test)
 
-print("Test set prediction:\n {}".format(y_pred))
+print(str(clf.score(y_pred,y_test)*100)
 ########################################################SVM###########################################
 clf = svm.SVC(C=43,gamma=0.001)
 clf.fit(X_train,y_train)
-print(str(clf.score(X_test,y_test)*100))
+y_pred = clf.predict(X_test)
+print(str(clf.score(y_pred,y_test)*100)
